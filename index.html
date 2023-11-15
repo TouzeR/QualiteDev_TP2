@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le site de la SAE</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul id="nav">
+      <li><a href="index.html">Accueil</a></li>
+      <li class="menu"><a href="Text1.html">La cryptomonnaie</a>
+        <div class="submenu">
+          <div><a href="Text1.html#s1p1" >Qu'est ce que c'est ?</a></div>
+          <div><a href="Text1.html#s1p2">Comment ça marche ?</a></div>
+        </div>
+      </li>
+      <li class="menu"><a href="Text2.html">Ecologie et Environnement</a>
+        <div class="submenu">
+          <div><a href="Text2.html#s2p1" >Impact écologique et environnemental</a></div>
+          <div><a href="Text2.html#s2p2">Le cas du Bitcoin</a></div>
+          <div><a href="Text2.html#s2p3">Cas d'exemple</a></div>
+          <div><a href="Text2.html#s2p4">La cryptomonnaie peut-elle être moins polluante</a></div>
+        </div>
+      </li>
+      <li><a href="Text3.html">Bibliographie</a></li>
+      <li><a href="Text4.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  
+
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    
+    <ul class="menu__box">
+      <li><a class="menu__item" href="index.html">Accueil</a></li>
+      <li><a class="menu__item" href="Text1.html">La cryptomonnaie</a></li>
+      <li><a class="menu__item" href="Text2.html">Ecologie et Environnement</a></li>
+      <li><a class="menu__item" href="Text3.html">Bibliographie</a></li>
+      <li><a class="menu__item" href="Text4.html">Contact</a></li>
+    </ul>
+  </div>
+  
+
+  <main>
+    <h1 class="premierTitre">Les cryptomonnaies peuvent-elles être écologique ?</h1>
+    <p class="premierTitre">Site de la SAE</p>
+
+    <article>
+      <h2>La Cryptomonnaie</h2>
+      <p> Les cryptomonnaies sont en passe de devenir un des systèmes monétaires les plus utilisés au monde grâce notamment
+        au fait que cette monnaie est virtuelle et décentralisée. Mais à l'heure d’aujourd’hui où l’écologie est un sujet sociétal majeur,
+        on peut donc se demander, est-ce que les technologies qu’utilisent les cryptomonnaies sont nocives pour l’environnement ? Pour répondre à cette
+        question, nous allons voir dans un premier temps comment fonctionne une cryptomonnaie puis par quel procéder doit passer une personne lambda pour obtenir
+        une cryptomonnaie, et dans un second temps nous verrons les différences majeures entre les différentes technologies qu’utilisent les cryptomonnaies.
+      </p>
+      <h3 id="s1p1">Qu'est ce que c'est ?</h3>
+      <p>Une cryptomonnaie fonctionne grâce à une base de données qui contient l’historique des transactions effectué par les utilisateurs,
+        on appelle ça la blockchain, elle fonctionne grâce à des blocs qui sont liés les uns aux autres et qui contiennent les informations des transactions.
+        La blockchain à l’avantage d’être une technologie décentralisée c’est-à-dire qu’elle ne dépend d’aucun organisme tel qu’il soit, elle est également rapide
+        et sécurisée grâce au fait que les utilisateurs ont accès à la blockchain et peuvent donc l’améliorer.
+      </p> <img src="Photo/cryptomonnaie.jpg"> <h3 id="s1p2">Comment ça marche ?</h3>
+      <p>Pour améliorer la blockchain les utilisateurs utilisent ce qu’on appelle “Proof of Work” (ou Preuve de Travail), elle permet à n’importe qui possédant
+        une carte graphique de pouvoir participer à la résolution d’une équation mathématique complexe en devenant mineur, cette équation correspondant à la
+        vérification d’un bloc de transaction effectué sur la blockchain. Une fois que ce bloc a été vérifié, le mineur ayant créé le bloc et donc commencé la
+        résolution de l’équation est récompensé par l’émission de nouvelles cryptomonnaies au bénéfice du mineur.
+      </p>
+      <p> Les utilisateurs peuvent également choisir une seconde option appelée “Proof of Stake” (ou Preuve d’enjeu), elle à la différence du “PoW” permet à un
+        utilisateur possédant une certaine quantité d’une cryptomonnaie de pouvoir participer à la validation de nouveaux blocs en les déposant dans le réseau,
+        ils ne sont plus appelés mineurs mais validateurs. Pour la validation d’un nouveau bloc, les utilisateurs sont choisis par rapport aux nombres de
+        cryptomonnaies qu’ils ont sur le réseau, en somme, plus un utilisateur à d’argent plus il a de chance d’être le prochain validateur. Pour ce qui du système
+        de récompense, le validateur, une fois choisi, va devoir valider le bloc de transactions à lui tout seul, s'il le valide et que les transactions n’étaient
+        pas frauduleuses alors il recevra en récompense en pourcentage de chaque transaction, mais si les transactions s’avèrent frauduleuses, le validateur perdra
+        une part de ses cryptomonnaies dans le réseau, tout ceci crée un système de confiance entre validateurs.
+      </p>
+      <h3 id="s1p3">Les différences entre le PoW et le PoS</h3>
+      <p> La différence majeure entre “PoW” et “PoS” est que la preuve de travail permet à n’importe qui de miner tant qu’il a une carte graphique alors que la
+        preuve d’enjeu permet uniquement à ceux qui possèdent une certaine quantité de cryptomonnaies de pouvoir devenir des validateurs.
+      </p>
+      <p> Nous pouvons également parler d’autres différences entre ces deux technologies comme par exemple la consommation énergétique, la “PoW” est
+        beaucoup plus énergivore que la “PoS” cela s’explique par le fait que la Proof of Work demande à ses utilisateurs d’acquérir de plus en plus d’équipement
+        pour miner plus de cryptomonnaies ce qui augmente de ce fait la consommation électrique globale. La moindre consommation énergétique de la Proof of Stake
+        s’explique simplement par le fait que cette technologie permet uniquement à quelques utilisateurs de devenir des validateurs ce qui contraste énormément
+        avec la Preuve de Travail.
+      </p>
+      <p> Ensuite, la “PoW” dénature le principe même des cryptomonnaies puisqu’il permet la centralisation du minage de par le fait que les mineurs puissent
+        collaborer entre eux et crée des groupes avec énormément d’équipements ce qui les favorises dans la course à la résolution de blocs. La “PoS” quant à
+        elle ne permet pas ce genre de centralisation puisque son système est en quelques sortes aléatoires et permet aux validateurs même avec peu d’équipements
+        de pouvoir valider un bloc.
+      </p>
+      <h3 id="s1p4">Conclusion</h3>
+      <p> Pour conclure, les cryptomonnaies sont peut-être le futur de l’économie, mais les différents travers que mettent en exergue l’utilisations de
+        différentes technologies essentielles, pour qu’une cryptomonnaies puissent ne serait-ce que fonctionnait, et avoir la moindre crédibilité sur le
+        marché restent un sujet complexe à traiter à ce jour étant donné tous les changements s’opérant actuellement dans le monde de la cryptomonnaie.
+      </p>
+      <img src="Photo/blockchain.png">
+      <img src="Photo/blochain2.png">
+      <img src="Photo/pow.png"> </article>
+  </main>
+</body>
+<footer>
+  <hr>
+  WAGNER Cyril, GASMI Victor, DUPIN Nathan, TOUZE Romain
+</footer>
+</html>
